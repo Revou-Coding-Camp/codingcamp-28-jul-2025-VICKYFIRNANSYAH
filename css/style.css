@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+/* Smooth scroll behavior saat klik anchor */
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bg-color: #ffffff;
+  --second-bg-color: #333;
+  --text-color: #fff;
+  --main-color: #2563eb;
+  --navbar: #f8f8f8;
+}
+
+/* Gaya umum body */
+body {
+  background-color: var(--bg-color);
+  color: var(--second-bg-color);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+nav {
+  background-color: var(--navbar);
+  border-bottom: 1px solid var(--main-color);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--second-bg-color);
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+nav a:hover {
+  background-color: var(--main-color);
+}
+
+/* Social Media Icons */
+.social-media {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.social-media a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: 0.2rem solid var(--main-color);
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: var(--main-color);
+  transition: 0.5s ease;
+}
+
+.social-media a:hover {
+  background: var(--main-color);
+  color: var(--second-bg-color);
+  box-shadow: 0 0 1rem var(--main-color);
+}
+
+/* Form input dan textarea */
+input[type="text"],
+input[type="date"],
+textarea {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Button submit */
+button[type="submit"] {
+  background-color: #2563eb; /* blue-600 */
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #1d4ed8; /* blue-700 */
+}
+
+/* Info box tampilan */
+#infoBox {
+  margin-top: 1rem;
+  background-color: #f3f4f6; /* gray-100 */
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid #d1d5db; /* gray-300 */
+}
+
+/* Footer kecil */
+footer {
+  font-size: 10px;
+  color: #888;
+  text-align: right;
+  padding: 0.5rem;
+}

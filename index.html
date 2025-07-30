@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="assets/images/Gold Version.png" type="image/png" />
+    <title>V-Company</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+
+  <body
+    class="bg-gradient-to-br from-purple-100 via-indigo-100 to-blue-100 text-gray-800 font-sans text-base scroll-smooth"
+  >
+    <!-- Wrapper -->
+    <div class="max-w-screen-lg mx-auto shadow-lg border border-gray-300 mt-4">
+      <!-- Navigation -->
+      <nav
+        class="flex items-center justify-between px-4 py-2 bg-white sticky top-0 z-10 border-b border-gray-200"
+      >
+        <!-- Logo Bulat -->
+        <div class="flex items-center">
+          <img
+            src="assets/images/Gold Version.png"
+            alt="Logo"
+            class="w-12 h-12 rounded-full"
+          />
+        </div>
+
+        <!-- Menu Navigasi -->
+        <div
+          class="flex border border-gray-300 rounded overflow-hidden text-sm"
+        >
+          <a
+            href="#home"
+            class="px-4 py-2 hover:bg-gray-100 border-r border-gray-300"
+            >Home</a
+          >
+          <a
+            href="#profile"
+            class="px-4 py-2 hover:bg-gray-100 border-r border-gray-300"
+            >Our Profile</a
+          >
+          <a
+            href="#portfolio"
+            class="px-4 py-2 hover:bg-gray-100 border-r border-gray-300"
+            >Portfolio</a
+          >
+          <a href="#message" class="px-4 py-2 hover:bg-gray-100">Message Us</a>
+        </div>
+      </nav>
+
+      <!-- Home Section -->
+      <section
+        id="home"
+        class="px-6 py-10 text-center text-white bg-[url('assets/images/Home.jpg')] bg-cover bg-center bg-no-repeat"
+      >
+        <h1 class="text-2xl font-bold mb-2">
+          Hi <span id="welcomeName">Everyone</span>, Welcome To V-Company!
+        </h1>
+        <p class="text-lg text-white">
+          This is our first website project using HTML, CSS, and JavaScript.
+        </p>
+
+        <div class="social-media flex justify-center gap-4 mt-4 text-xl">
+          <a
+            href="https://vickyfirnansyah.github.io/vickyfirnansyah/"
+            title="Website"
+            ><i class="fas fa-globe"></i
+          ></a>
+          <a href="https://www.facebook.com/vicky.firnansyah" title="Facebook"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://www.instagram.com/firnansyah15/" title="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/vicky-firnansyah-660436325/"
+            title="LinkedIn"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/VICKYFIRNANSYAH" title="GitHub"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </section>
+
+      <!-- Profile Section -->
+      <section id="profile" class="bg-gray-50 py-10 px-6">
+        <h2 class="text-xl font-bold mb-4 text-center">Our Profile</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <img
+              src="assets/images/Gold Version.png"
+              alt="Company Logo"
+              class="w-full rounded shadow"
+            />
+          </div>
+          <div class="space-y-4 text-justify">
+            <p>
+              <b>About Us:</b> <br />
+              V-Company adalah perusahaan teknologi yang berfokus pada
+              pengembangan perangkat lunak dan inovasi digital. Kami menyediakan
+              layanan end-to-end mulai dari pengembangan aplikasi mobile,
+              website, hingga layanan konsultasi teknologi untuk mendukung
+              transformasi digital bisnis Anda. Dengan tim engineer yang
+              berpengalaman dan pendekatan berbasis kebutuhan pengguna, kami
+              hadir untuk menciptakan solusi digital yang andal dan berdampak.
+            </p>
+            <div class="social-media flex gap-4 text-xl">
+              <a
+                href="https://vickyfirnansyah.github.io/vickyfirnansyah/"
+                title="Website"
+                ><i class="fas fa-globe"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/vicky.firnansyah"
+                title="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/firnansyah15/"
+                title="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/vicky-firnansyah-660436325/"
+                title="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="https://github.com/VICKYFIRNANSYAH" title="GitHub"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="py-10 px-6">
+        <h2 class="text-xl font-bold mb-4 text-center">Our Portfolio</h2>
+        <div class="grid md:grid-cols-3 gap-4">
+          <img
+            src="assets/images/mobile-app-development.jpg"
+            alt="Mobile App"
+            class="mb-2 w-full rounded"
+          />
+          <img
+            src="assets/images/website-projects.jpg"
+            alt="Website Projects"
+            class="mb-2 w-full rounded"
+          />
+          <img
+            src="assets/images/tech-consultancy.jpg"
+            alt="Tech Consultancy"
+            class="mb-2 w-full rounded"
+          />
+        </div>
+      </section>
+
+      <!-- Message Us Section -->
+      <section id="message" class="bg-gray-50 py-10 px-6">
+        <h2 class="text-xl font-bold mb-4 text-center">Message Us</h2>
+        <div class="flex flex-col md:flex-row gap-6">
+          <form id="messageForm" class="flex flex-col gap-3 md:w-1/2">
+            <label>
+              Nama:
+              <input
+                type="text"
+                name="name"
+                required
+                class="w-full border px-3 py-2 rounded"
+              />
+            </label>
+            <label>
+              Tanggal Lahir:
+              <input
+                type="date"
+                name="birthdate"
+                required
+                class="w-full border px-3 py-2 rounded"
+              />
+            </label>
+            <label>Jenis Kelamin:</label>
+            <div class="flex gap-4 text-sm">
+              <label
+                ><input type="radio" name="gender" value="Laki-Laki" />
+                Laki-Laki</label
+              >
+              <label
+                ><input type="radio" name="gender" value="Perempuan" />
+                Perempuan</label
+              >
+            </div>
+            <label>
+              Pesan:
+              <textarea
+                name="message"
+                rows="4"
+                placeholder="Tulis pesan Anda di sini..."
+                required
+                class="w-full border px-3 py-2 rounded"
+              ></textarea>
+            </label>
+            <button
+              type="submit"
+              class="bg-blue-500 hover:bg-blue-600 text-white py-2 rounded"
+            >
+              Submit
+            </button>
+          </form>
+
+          <div
+            id="infoBox"
+            class="border p-4 rounded md:w-1/2 bg-white text-sm leading-relaxed"
+          >
+            <div class="mb-2 font-bold">Current time:</div>
+            <div id="currentTime" class="mb-4">Loading...</div>
+            <div>
+              <b>Nama:</b> - <br />
+              <b>Tanggal Lahir:</b> - <br />
+              <b>Jenis Kelamin:</b> - <br />
+              <b>Pesan:</b> -
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="text-xs text-center py-3 border-t border-gray-200">
+        &copy; 2025 RevoU Mini Project | Created by VickyFirnansyah
+      </footer>
+    </div>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
