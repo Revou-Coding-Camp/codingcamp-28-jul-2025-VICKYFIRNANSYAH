@@ -53,10 +53,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (!welcomeName) {
     welcomeName = prompt("Masukkan nama Anda:");
-    localStorage.setItem("visitorName", welcomeName || "Pengunjung");
+    localStorage.setItem("visitorName", welcomeName || "everyone");
   }
 
   if (nameTarget) {
-    nameTarget.textContent = welcomeName || "Pengunjung";
+    nameTarget.textContent = welcomeName || "everyone";
   }
 });
